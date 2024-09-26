@@ -46,39 +46,27 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/BuomYian/inventory-management-dashboard.git
-   ```
-
-````
+- git clone https://github.com/BuomYian/inventory-management-dashboard.git
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd inventory-management-dashboard
-   ```
+- cd inventory-management-dashboard
 
 3. Install the dependencies:
 
-   ```bash
    npm install
-   ```
 
 ## Configuration
 
 1. Create a `.env` file in the root directory and add your environment variables:
 
-   ```bash
    DATABASE_URL="postgresql://user:password@localhost:5432/inventory"
    AWS_ACCESS_KEY_ID="your-aws-access-key-id"
    AWS_SECRET_ACCESS_KEY="your-aws-secret-access-key"
-   ```
 
 2. Set up Prisma:
 
-   ```bash
    npx prisma migrate dev --name init
-   ```
 
 3. Ensure your PostgreSQL database is running and Prisma is connected.
 
@@ -86,15 +74,11 @@ To get a local copy up and running, follow these steps:
 
 1. Start the development server:
 
-   ```bash
    npm run dev
-   ```
 
 2. Open your browser and navigate to:
 
-   ```bash
    http://localhost:3000
-   ```
 
 ## Database Schema
 
@@ -125,4 +109,3 @@ Contributions are welcome! If you would like to contribute, feel free to fork th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-````
