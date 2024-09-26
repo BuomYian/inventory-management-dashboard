@@ -1,6 +1,3 @@
-Here's a `README.md` file template for your **Inventory Management Dashboard** project:
-
-````markdown
 # Inventory Management Dashboard
 
 This is a full-stack inventory management dashboard built with **Next.js**, **Node/Express**, **PostgreSQL**, **Prisma**, **AWS**, and **Material UI**. The application provides users with the ability to manage inventory, track stock levels, and generate reports, among other features.
@@ -52,6 +49,7 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/BuomYian/inventory-management-dashboard.git
    ```
+
 ````
 
 2. Navigate to the project directory:
@@ -127,3 +125,4 @@ Contributions are welcome! If you would like to contribute, feel free to fork th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+````
